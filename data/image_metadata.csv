@@ -1,0 +1,15 @@
+filename,gcs_uri,image_type,fire_risk_level,date_captured,location,vegetation_condition,file_description
+St_Helena_2024-08-25.jpg,gs://inferno-470515-napa-fire-data/images/St_Helena_2024-08-25.jpg,general_landscape,moderate,2024-08-25,Napa_Valley,moderate,general_landscape imagery for wildfire analysis
+calistoga_area_20230610.jpg,gs://inferno-470515-napa-fire-data/images/calistoga_area_20230610.jpg,general_landscape,moderate,2025-09-02,Napa_Valley,moderate,general_landscape imagery for wildfire analysis
+calistoga_moderate_20220715.jpg,gs://inferno-470515-napa-fire-data/images/calistoga_moderate_20220715.jpg,general_landscape,moderate,2025-09-02,Napa_Valley,moderate,general_landscape imagery for wildfire analysis
+napa_dry_vegetation_20200915.jpg,gs://inferno-470515-napa-fire-data/images/napa_dry_vegetation_20200915.jpg,dry_vegetation,high,2025-09-02,Napa_Valley,high,dry_vegetation imagery for wildfire analysis
+napa_fire_damage_20201010.jpeg,gs://inferno-470515-napa-fire-data/images/napa_fire_damage_20201010.jpeg,active_fire,high,2025-09-02,Napa_Valley,high,active_fire imagery for wildfire analysis
+napa_glass_fire_20200927.jpg,gs://inferno-470515-napa-fire-data/images/napa_glass_fire_20200927.jpg,active_fire,high,2025-09-02,Napa_Valley,high,active_fire imagery for wildfire analysis
+napa_mountain_view_20191105.jpg,gs://inferno-470515-napa-fire-data/images/napa_mountain_view_20191105.jpg,general_landscape,moderate,2025-09-02,Napa_Valley,moderate,general_landscape imagery for wildfire analysis
+napa_recent_dry_20240825.jpg,gs://inferno-470515-napa-fire-data/images/napa_recent_dry_20240825.jpg,dry_vegetation,high,2025-09-02,Napa_Valley,high,dry_vegetation imagery for wildfire analysis
+napa_recovery_growth_20220415.jpg,gs://inferno-470515-napa-fire-data/images/napa_recovery_growth_20220415.jpg,general_landscape,moderate,2025-09-02,Napa_Valley,moderate,general_landscape imagery for wildfire analysis
+napa_spring_green_20210320.jpg,gs://inferno-470515-napa-fire-data/images/napa_spring_green_20210320.jpg,healthy_vegetation,low,2025-09-02,Napa_Valley,low,healthy_vegetation imagery for wildfire analysis
+napa_summer_moderate_20220715.jpg,gs://inferno-470515-napa-fire-data/images/napa_summer_moderate_20220715.jpg,general_landscape,moderate,2025-09-02,Napa_Valley,moderate,general_landscape imagery for wildfire analysis
+napa_tubbs_fire_20171008.jpg,gs://inferno-470515-napa-fire-data/images/napa_tubbs_fire_20171008.jpg,active_fire,high,2025-09-02,Napa_Valley,high,active_fire imagery for wildfire analysis
+napa_vineyard_area_20230610.jpg,gs://inferno-470515-napa-fire-data/images/napa_vineyard_area_20230610.jpg,general_landscape,moderate,2025-09-02,Napa_Valley,moderate,general_landscape imagery for wildfire analysis
+sthelena_dry.jpg,gs://inferno-470515-napa-fire-data/images/sthelena_dry.jpg,dry_vegetation,high,2025-09-02,Napa_Valley,high,dry_vegetation imagery for wildfire analysis
