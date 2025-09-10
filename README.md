@@ -62,8 +62,7 @@ Clone this repository to your local machine.
 ```bash
 git clone [your-repo-url]
 cd InfernoCast-AI
-gcloud config set project inferno1
-export PROJECT_ID=inferno1
+
 Install the required Python dependencies.
 pip install -r requirements.txt
 
@@ -77,8 +76,8 @@ Run the provided deployment script. This will create the necessary BQ dataset, G
 ./deploy_v1.sh your-gcp-project-id us
 # Run the data collection script. This will fetch real weather data and upload all necessary files and tables to your GCP environment.
 # Uploads your local weather messages and satellite images to Cloud Storage (provided as part of repo)
-python upload_existing_files.py
-python dataCollection_v1.py
+python upload_multimodal_files.py
+python dataCollector_v3.py
 ```
 
 #### 4. Launch the Demo
