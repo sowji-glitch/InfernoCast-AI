@@ -1,0 +1,8 @@
+google-cloud-bigquery
+google-cloud-storage
+pandas
+requests
+python-dotenv
+bigframes
+google-cloud-aiplatform
+seaborn
