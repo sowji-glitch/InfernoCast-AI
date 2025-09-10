@@ -84,5 +84,5 @@ python dataCollector_v3.py
 Open and run the Multimodal_analysis.ipynb notebook in a Jupyter environment. The notebook is designed to be run from top to bottom.
 ```
 # Opens interactive notebook demonstrating all multimodal capabilities
-jupyter notebook Multimodal_analysis.ipynb
+jupyter notebook Multimodal_analysis_v1.ipynb
 ```
