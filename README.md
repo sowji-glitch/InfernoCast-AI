@@ -62,11 +62,13 @@ Clone this repository to your local machine.
 ```bash
 git clone [your-repo-url]
 cd InfernoCast-AI
-
+gcloud config set project inferno1
+export PROJECT_ID=inferno1
 Install the required Python dependencies.
 pip install -r requirements.txt
 
-set PROJECT_ID="your-gcp-project-id"
+gcloud config set project "your-gcp-project-id"
+export PROJECT_ID="your-gcp-project-id"
 ```
 #### 3. Deployment & Data Loading
 Run the provided deployment script. This will create the necessary BQ dataset, GCS bucket, and BigQuery Connection.
