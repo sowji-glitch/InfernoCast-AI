@@ -103,5 +103,5 @@ gcloud projects add-iam-policy-binding inferno3 \
 Open and run the Multimodal_analysis.ipynb notebook in a Jupyter environment. The notebook is designed to be run from top to bottom. You can also open it in VSCode and execute it from there
 ```
 # Opens interactive notebook demonstrating all multimodal capabilities
-jupyter notebook Multimodal_analysis_v1.ipynb
+jupyter notebook Multimodal_analysis.ipynb
 ```
