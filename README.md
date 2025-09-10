@@ -80,7 +80,26 @@ python upload_multimodal_files.py
 python dataCollector_v3.py
 ```
 
-#### 4. Launch the Demo
+#### 4. Check permissions & verify
+```
+# To test run the below query in BQ Console
+SELECT * FROM "PROJECT_ID".napa_wildfire_demo.satellite_images
+
+# If you do not see the images in the ouput of the query above, please set the permission in the next steps
+# Get connection service account
+bq show  --location us --connection gcs-connection
+
+# Set permissions for the Service account
+gcloud projects add-iam-policy-binding inferno3 \
+    --member="serviceAccount:your-bq-service-account-id" \
+    --role="roles/aiplatform.user"
+
+gcloud projects add-iam-policy-binding inferno3 \
+    --member="serviceAccount:your-bq-service-account-id" \
+    --role="roles/storage.objectViewer"
+```
+
+#### 5. Launch the Demo
 Open and run the Multimodal_analysis.ipynb notebook in a Jupyter environment. The notebook is designed to be run from top to bottom. You can also open it in VSCode and execute it from there
 ```
 # Opens interactive notebook demonstrating all multimodal capabilities
